@@ -94,7 +94,7 @@ if __name__ == "__main__":
 
     dimensions = [100 * i for i in range(1, 11)]
     K = 500 # Number of Vertices of the convex hull
-    n = 10000
+    n = 10000 # Number of redundant points
 
     for m in dimensions: 
         convexHullVertices = torch.randn(K, m)
